@@ -17,6 +17,7 @@ function actualizarCambios () {
     tickets.innerText = ticketsRange.value;
     totalTickets.innerText = 'Tickets x' + ticketsRange.value;
     montoTotalTickets.innerText = '$' + precioTicket * ticketsRange.value;
+   
 
     if(categoriaSelect.value === '1'){
         descuentoCategoria.innerText = 'Sin Descuento';
