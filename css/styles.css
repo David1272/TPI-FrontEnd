@@ -1,0 +1,151 @@
+.grey-background {
+    background-color: rgb(53, 58, 64);
+}
+
+header a  {
+    text-decoration: none !important;
+}
+
+header a:hover {
+    color: white !important;
+}
+
+#buyTickets:hover {
+    color: rgb(96, 215, 122) !important;
+}
+
+header li  {
+    padding-left: 2em ;
+}
+
+nav {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+#logo {
+    width: 30%;
+}
+
+#conf-bsas {
+    background-image: url(https://david1272.github.io/TPI-FrontEnd/images/ba1.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 90vh;
+    color: white;
+    padding: 0;
+}
+
+#conf-bsas  {
+    margin: 0 !important;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#info-conf {
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+}
+
+.oradores {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+.orador a  {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: .1em .3em;
+    margin-right: .3em;
+    font-size: smaller;
+}
+
+#lugar-fecha {
+    font-size: 90%;
+}
+
+#ser-orador .row {
+    padding: .2em;
+}
+
+.dotted-underline  {
+    border-bottom: 1px dotted;
+}
+
+.footer  {
+    background: rgb(28,56,70);
+    background: linear-gradient(90deg, rgba(28,56,70,1) 0%, rgba(28,63,82,0.9864320728291317) 29%, rgba(30,71,93,0.908000700280112) 68%, rgba(30,81,112,0.8939950980392157) 100%);
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.footer a {
+    color: white !important;
+}
+
+
+@media (max-width: 1024px) {
+    nav {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    header li {
+        padding-left: 0;
+    }
+
+    #logo {
+        width: 75%;
+    }
+
+    #logo img {
+        width: 20%;
+    }
+
+    #info-conf div {
+        min-width: 95% !important;
+    }
+
+    .oradores {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .orador {
+        padding-bottom: 3em;
+    }
+
+    #lugar-fecha .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+    .footer li {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+} 
+
+
+
